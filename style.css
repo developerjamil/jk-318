@@ -1,0 +1,161 @@
+/* header part start */
+.header {
+	background-color: #101446;
+	text-align: center;
+}
+.header img {
+	width: 80px;
+	margin-bottom: -37px;
+}
+.header ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 3px 10px;
+	line-height: 44px;
+}
+.header ul li a {
+	text-decoration: none;
+	font-size: 15px;
+	color: #fff;
+	transition: all .3s ease;
+}
+.header ul li a:hover {
+	color: orange;
+	transition: all .3s ease;
+}
+/* header part end */
+/* container css start  */
+.cotainer_part {
+	background-image: url(https://i.ibb.co/qM0w2Dg/intro-bg.jpg);
+	height: 830px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	z-index: 1;
+    background-attachment: fixed;
+}
+.cotainer_part::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0, .6);
+	z-index: -1;
+}
+.cotainer_part h2 {
+	margin-top: 20%;
+	margin-bottom: 3%;
+	font-weight: 600;
+	font-size: 30px;
+}
+.cotainer_part p {
+	display: inline-block;
+	width: 743px;
+	font-weight: 600;
+}
+.cotainer_part button {
+	display: block;
+	margin: auto;
+	border: none;
+	background-color: #337ab7;
+	padding: 6px 12px;
+	border-radius: 5px;
+	color: #fff;
+    margin-top: 30px;
+}
+/* container css end  */
+/* service_area start */
+.service_area{
+    background-color: #bac1f3;
+}
+.service_area h1 {
+	padding-top: 100px;
+	margin-bottom: 70px;
+	font-size: 60px;
+	font-weight: 500;
+}
+.service_area img {
+	width: 165px;
+}
+.service_area h4 {
+	font-size: 15px;
+    padding-top: 10px;
+}
+.service_area p {
+	width: 217px;
+	margin: auto;
+}
+.service_area button {
+	margin-top: 13px;
+	border: none;
+	background-color: #337ab7;
+	padding: 8px 15px;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 13px;
+	margin-bottom: 110px;
+}
+/* service_area End */
+/* About area start */
+.about-area{
+    background-color: #c2d4ea;
+}
+.about-area h1 {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	font-weight: 400;
+	font-size: 50px;
+}
+.about-area .form{
+    float: right;
+}
+.about-area img {
+	margin-left: 3px;
+	margin-top: -6px;
+	width: 120px;
+}
+.about-area .form h4 {
+	font-size: 13px;
+	margin-right: 277px;
+}
+.about-area .ptag {
+	width: 587px;
+	margin-top: 22px;
+}
+.about-area p {
+	width: 658px;
+}
+.pra {
+	font-size: 20px;
+	margin-bottom: 120px;
+}
+
+/* About area End */
+/* contact css start */
+.Contact_part {
+	margin-bottom: 100px;
+}
+/* contact css End */
+/* footer css start */
+.footer{
+	background-color: #0062d3;
+}
+.footer h2 {
+	font-size: 13px;
+	font-weight: 600;
+	padding-top: 20px;
+}
+.footer h2 span {
+	font-size: 15px;
+	font-weight: 800;
+}
+.footer h3 {
+	font-size: 13px;
+	padding-bottom: 10px;
+}
+
+/* footer css end */
